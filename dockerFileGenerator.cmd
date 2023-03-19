@@ -1,4 +1,4 @@
-docker build . -t  repbioinfo/dockerfilegeneratorv19
+#docker build . -t  repbioinfo/dockerfilegeneratorv19
 @Set "Build=%CD%"
 @Echo(%Build%
 @If Not Exist "configurationFile.txt" Set /P "=%Build%" 0<NUL 1>"configurationFile.txt"
